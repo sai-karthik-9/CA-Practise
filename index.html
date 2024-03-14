@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Catcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-screen" class="screen">
+        <h1>Fruit Catcher</h1>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <div id="game-screen" class="screen hidden">
+        <div id="basket"></div>
+        <div id="score">Score: <span id="score-value">0</span></div>
+        <div id="falling-fruit"></div>
+    </div>
+
+    <div id="game-over-screen" class="screen hidden">
+        <h1>Game Over</h1>
+        <p id="game-over-text"></p>
+        <button onclick="restartGame()">Play Again</button>
+    </div>
+
+    <div id="instructions-screen" class="screen hidden">
+        <h1>Instructions</h1>
+        <p>Add instructions here...</p>
+        <button onclick="showStartScreen()">Back to Start</button>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="catch-sound">
+        <source src="catch-sound.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

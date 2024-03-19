@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Two Player Dice Game</title>
+</head>
+<body>
+    <!-- <h1 id="player-names">Player-1 vs Player-2</h1> -->
+    <div class="score">
+        <span class="player1-score">0</span>-<span class="player2-score">0</span>
+    </div>
+
+    <div class="container">
+        <div class="player box">
+            <h2>Player 1
+                <img id="player1-hand" src="" alt="">
+            </h2>
+            <button class="roll-button" id="player1-roll">Roll Dice</button>
+        </div>
+        <img src="assets/vs.png" alt="">
+        <div class="player box">
+            <h2>Player 2
+                <img id="player2-hand" src="" alt="">
+            </h2>
+            <button class="roll-button" id="player2-roll">Roll Dice</button>
+        </div>
+    </div>
+
+    <div class="replay">
+        <h3>Game Over</h3>
+        <div class="play-again-box">Play Again</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

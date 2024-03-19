@@ -1,0 +1,55 @@
+body {
+    background-image: url('/assets/Dice1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    font-size: 27px;
+    text-align: left;
+}
+
+.game-start {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.play-button {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
+
+    .instructions {
+        font-size: 22px;
+    }
+
+    .game-start {
+        font-size: 18px;
+    }
+
+    .play-button {
+        width: 80px;
+        height: 80px;
+    }
+}

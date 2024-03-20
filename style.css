@@ -1,0 +1,46 @@
+body {
+  background-image: url('/assets/Dice1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', sans-serif;
+}
+  .player {
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px;
+  }
+  .dice {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+  }
+  p{
+    font-size: 2rem;
+    color: #232931;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .play-again-box {
+    background: #4ecca3;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+  .btn {
+    background: #4ecca3;
+    font-family: "Indie Flower", cursive;
+    border-radius: 7px;
+    color: #ffff;
+    font-size: 30px;
+    padding: 16px 25px 16px 25px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #232931;
+    text-decoration: none;
+}

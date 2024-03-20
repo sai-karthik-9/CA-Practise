@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+<link rel ="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roll the Dice Game</title>
+</head>
+<body>
+  <h1>Roll the Dice Game</h1>
+  <div class="player" id="player1">
+    <h2>Player 1</h2>
+    <img class="dice" id="player1Dice" src="dice1.png" alt="Player 1 Dice">
+    <p>Score: <span id="player1Score">0</span></p>
+    <button id="player1Button" class="btn">Roll Dice</button>
+  </div>
+  <div class="player" id="player2">
+    <h2>Player 2</h2>
+    <img class="dice" id="player2Dice" src="dice1.png" alt="Player 2 Dice">
+    <p>Score: <span id="player2Score">0</span></p>
+    <button id="player2Button" class="btn">Roll Dice</button>
+  </div>
+  <p id="roundResult"></p>
+  <div class="replay">
+    <button class="play-again-box" >Play Again</button>
+    </div>
+    <div class="container bottom">
+        <button type="button" class="btn" onclick="editNames()">
+            Edit Names</button>
+
+    </div>
+
+<audio id="diceSound" src="rpg-dice-rolling-95182.mp3"></audio>
+<script src="app.js">
+</script>
+</body>
+</html>
